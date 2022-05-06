@@ -7,7 +7,7 @@ function TopBar() {
           <div className="logo">
             <ion-icon name="logo-instagram"></ion-icon>
             <div className="separador"></div>
-            <img src="./logo.png" alt='Instagram' />
+            <img src="/img/logo.png" alt='Instagram' />
           </div>
 
           <div className="logo-mobile">
@@ -15,7 +15,7 @@ function TopBar() {
           </div>
 
           <div className="instagram-mobile">
-            <img src="./logo.png" alt='Instagram' />
+            <img src="/img/logo.png" alt='Instagram' />
           </div>
   
           <div className="pesquisa">
