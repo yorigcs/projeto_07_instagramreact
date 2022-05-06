@@ -65,4 +65,9 @@
         width: 100%;
         margin-top:  54px;
       }
+
+
+  .stories .setinha {
+    display: none;
+  }
   }

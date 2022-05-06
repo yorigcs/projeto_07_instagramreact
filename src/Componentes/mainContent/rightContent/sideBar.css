@@ -74,6 +74,20 @@
     font-weight: 400;
   }
 
+  .links, .copyright {
+    font-size: 11px;
+    color: #C7C7C7;
+  } 
+  
+  .links {
+    margin-top: 40px;
+    cursor: pointer;
+  }
+
+  .copyright {
+    margin-top: 18px;
+  }
+
   @media (max-width: 935px) {
     .sidebar {
         display: none;
