@@ -2,7 +2,7 @@ import './stories.css';
 
 export default function Stories() {
     const users = [
-        {name: '9gag', image: '9gag', id: 0},
+        {name: '9gag1', image: '9gag', id: 0},
         {name: 'meowed', image: 'meowed', id: 1},
         {name: 'barked', image: 'barked', id: 2},
         {name: 'nathanwpylestrangeplanet', image: 'nathanwpylestrangeplanet', id: 3},
@@ -19,8 +19,7 @@ export default function Stories() {
         (
           <li key={user.id}>
               <Story 
-                user ={user.name}
-                image = {user.image}
+                {...user}
               />
           </li>  
         )
@@ -35,15 +34,15 @@ export default function Stories() {
     );
 }
 
-const Story = ({user,image}) => (
+const Story = ({name,image}) => (
     <div className="story">
         <div className="imagem">
             <img src={`/img/${image}.svg`} alt={image} />
         </div>
 
         <div className="usuario">
-            {user}
+            {name}  
         </div>
     </div>
-    );
+);
 
